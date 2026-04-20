@@ -1,0 +1,8 @@
+# JellyfinAuth Configuration
+
+jellyfin:
+  # Your Jellyfin server URL
+  url: "JELLYFIN_SERVER_URL_HERE"
+  
+  # Admin API key from Jellyfin dashboard (Dashboard -> API Keys)
+  api-key: "YOUR_API_KEY_HERE"

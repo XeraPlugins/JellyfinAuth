@@ -1,0 +1,16 @@
+name: JellyfinAuth
+main: me.txmc.jellyfinauth.JellyfinAuth
+version: 1.0.0
+author: 8b8t
+description: Create Jellyfin accounts for players with specific ranks
+api-version: 1.21
+folia-supported: true
+commands:
+  jellyfin:
+    aliases: [jf]
+    description: Get your Jellyfin account credentials
+    permission: jellyfinauth.use
+permissions:
+  jellyfinauth.use:
+    description: Use the /jellyfin command
+    default: false
